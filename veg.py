@@ -1,7 +1,7 @@
 import func
 
-key = 3
-nova = func.leArquivo()
+key = 'aaa'
+nova = func.CriptVegenere()
 arquivoEncript = func.encript(nova,key)
 print 'Mensagem criptografada \n'+arquivoEncript
 
